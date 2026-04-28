@@ -1,0 +1,26 @@
+{
+  "validLogin": {
+    "testName": "Successful login",
+    "email": "satish@yopmail.com",
+    "password": "Satish@155",
+    "rememberMe": true,
+    "expected": "success"
+  },
+
+  "logoutLogin": {
+    "testName": "Logout Functionality",
+    "email": "satish@yopmail.com",
+    "password": "Satish@155",
+    "rememberMe": true,
+    "expected": "logout"
+  },
+  
+  "invalidLogin": {
+    "testName": "Invalid Credentials",
+    "email": "satishc@yopmail.com",
+    "password": "Satish$15",
+    "rememberMe": true,
+    "expected": "error",
+    "errorMessage": "Invalid email or password"
+  }
+}
